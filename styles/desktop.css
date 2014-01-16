@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-- END OF RESET --*/
+
+/*-- GENERAL CSS --*/
+body {
+	font-family:'Ubuntu', sans-serif;
+}
+
+.wrapper {
+	width:940px;
+	margin:1% auto;
+}
+
+.clear {
+	clear:both;
+}
+
+a {
+	text-decoration:none;
+	color:#1A1A1A;
+	font-weight:500;
+}
+
+a:hover {
+	color:#E74F4B;
+}
+
+/*-- Canvas --*/
+canvas {
+	margin: 0 auto;
+	display: block;
+}
+
+.canvas-container {
+	width: 100%;
+	display: block;
+	margin: 30px 0 0 0;
+	padding: 20px 0;
+	background-color: #333;
+	min-height: 300px;
+	text-align: center;
+}
+
+.canvas-container p{
+	display: block;
+	width: 960px;
+	margin: 10px auto -10px;
+	color: white;
+
+}
+/*-- TOP NAV --*/
+.logo {
+	float:left;
+	display:block;
+}
+
+li {
+	display:block;
+	float:left;
+	margin:0 5.7%;
+	margin-top:6%;
+	font-size:18px;
+}
+
+.social_fb {
+	display:block;
+	width:33px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5%;
+}
+
+.social_tw {
+	display:block;
+	width:33px;
+	margin-left:0.7%;
+	margin-right:0;
+	margin-top:5%;
+}
+
+.icon_facebook {
+	background-image:url(../website_assets/icon_facebook.png);
+	width:33px;
+	height:32px;
+}
+
+.icon_facebook:hover {
+	background-position:bottom;
+}
+
+.icon_twitter {
+	background-image:url(../website_assets/icon_twitter.png);
+	width:33px;
+	height:33px;
+}
+
+.icon_twitter:hover {
+	background-position:bottom;
+}
+
+/*-- (UNDER CONSTRUCTION) MAIN CONTENT --*/
+.under_construction {
+	display:block;
+	width:100%;
+	margin:2% auto;
+}
+
+.under_construction_img {
+	display:block;
+	margin:0 auto;
+}
+
+.under_construction p {
+	text-align:center;
+	margin-top:2%;
+}
+
+.under_construction a {
+	color:#E74F4B;
+}
+
+.under_construction a:hover {
+	color:#FEBF16;
+}
+
+
+/*-- (HOME) MAIN CONTENT --*/
+.main_content {
+	display:block;
+	width:100%;
+	height:500px;
+	margin:2% auto;
+	background-color:#FC0;
+}
+
+/*-- (GAMES) MAIN CONTENT --*/
+.game_banner {
+	width:100%;
+	height:150px;
+	margin:2% 0;
+	background-color:#F33;
+}
+
+.game_banner h1 {
+	text-align:left;
+	position:relative;
+	top:110px;
+	left:10px;
+	color:#FFFFFF;
+	font-size:30px;
+}
+
+#uid {
+	background-color:#FFCC00;
+}
+
+#sneakin_santa {
+	background-color:#009966;
+}
+
+#ghost_grub {
+	background-color:#333;
+}
+
+/*-- (ABOUT) MAIN CONTENT --*/
+.about_description {
+	width:80%;
+	text-align:center justify;
+	margin:2% auto;
+}
+
+/*-- (CONTACT) MAIN CONTENT --*/
+.contact_list {
+	width:100%;
+	overflow:auto;
+	margin:2% 3.5%;
+}
+
+.contact_list li {
+	float:left;
+	margin:0 0;
+}
+
+.contact_icons {
+	width:174px;
+	height:92px;
+}
+
+/*email*/
+#contact_icon_email {
+	background-image:url(../website_assets/contact_gmail.png);
+}
+
+#contact_icon_email:hover {
+	background-position:bottom;
+}
+
+/*facebook*/
+#contact_icon_facebook {
+	background-image:url(../website_assets/contact_facebook.png);
+}
+
+#contact_icon_facebook:hover {
+	background-position:bottom;
+}
+
+/*twitter*/
+#contact_icon_twitter {
+	background-image:url(../website_assets/contact_twitter.png);
+}
+
+#contact_icon_twitter:hover {
+	background-position:bottom;
+}
+
+/*tumblr*/
+#contact_icon_tumblr {
+	background-image:url(../website_assets/contact_tumblr.png);
+}
+
+#contact_icon_tumblr:hover {
+	background-position:bottom;
+}
+
+/*youtube*/
+#contact_icon_youtube {
+	background-image:url(../website_assets/contact_youtube.png);
+}
+
+#contact_icon_youtube:hover {
+	background-position:bottom;
+}
+
+
+/*-- FOOTER NAV --*/
+.footer {
+	width:90%;
+	margin:0 auto;
+	border-top:solid 1px #E6E6E6;
+}
+
+.bottom_nav li {
+	display:block;
+	float:left;
+	margin:1% 7%;
+	font-size:14px;
+	font-weight:400;
+}
+
+.bottom_nav li a {
+	color:#E6E6E6;
+}
+
+.bottom_nav li a:hover {
+	color:#E74F4B;
+}
